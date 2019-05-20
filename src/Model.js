@@ -1,3 +1,8 @@
-const initModel = {};
-
-export default initModel;
+const initModel = {
+    location: '',
+    nextId: 0,
+    locations: [],
+  };
+  
+  export default initModel;
+  
