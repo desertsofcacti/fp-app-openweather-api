@@ -10,7 +10,7 @@ export const MSGS = {
 const APPID = '1cb6fa29536159862818c9668f8177f5';
 
 function weatherUrl(city) {
-  return `http://api.openweathermap.org/data/2.5/weather?q=${encodeURI(
+  return `https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q=${encodeURI(
     city,
   )}&units=imperial&APPID=${APPID}`;
 }
