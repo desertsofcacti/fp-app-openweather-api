@@ -4,7 +4,8 @@
   "description": "OpenWeatherMap API FP App",
   "scripts": {
     "start": "webpack-dev-server",
-    "design": "serve ./design"
+    "design": "serve ./design",
+    "dist": "webpack --config prod.config.js"
   },
   "author": "Mike Hacker",
   "license": "MIT",
